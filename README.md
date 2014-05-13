@@ -43,6 +43,8 @@ Thanks to:
 
 * The community at [Minecraft Server Manager](http://msmhq.com/) for developing a full-featured init script for Minecraft servers.
 
+* Barnaby Gray for the suggestion to use openjdk-7-jre-headless - gleaned from [https://github.com/barnybug/dockerfiles/blob/master/openjdk-7-jre/Dockerfile](https://github.com/barnybug/dockerfiles/blob/master/openjdk-7-jre/Dockerfile)
+
 ##Copyright Information##
 
 Copyright (C) 2014 Chris Collins

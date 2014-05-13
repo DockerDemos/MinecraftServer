@@ -1,7 +1,6 @@
 #!/bin/bash
 
-/usr/bin/apt-get update
-/usr/bin/apt-get -y install screen rsync zip wget cron anacron openjdk-7-jre
+/usr/bin/apt-get -y install screen rsync zip wget anacron openjdk-7-jre-headless
 
 /usr/sbin/useradd minecraft
 
