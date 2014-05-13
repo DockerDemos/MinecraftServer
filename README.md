@@ -9,10 +9,6 @@ Maintainer: Chris Collins \<collins.christopher@gmail.com\>
 
 Updated: 2014-05-13
 
-##Caution##
-
-This Docker Container is still being developed.  It will not yet work, but hopefully it should be functioning soon.  Check back later, or better yet, issue a pull request and help out!
-
 ##Building and Running##
 
 This is a [Docker](http://docker.io) container image.  You need to have Docker installed to build and run the container.
