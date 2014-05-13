@@ -18,7 +18,5 @@
 
 /bin/ln -s /etc/init.d/msm /usr/local/bin/msm
 
-/usr/local/bin/msm update
-
 /bin/echo "Pre-install complete"
 
