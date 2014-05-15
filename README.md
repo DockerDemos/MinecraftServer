@@ -15,11 +15,11 @@ This is a [Docker](http://docker.io) container image.  You need to have Docker i
 
 To build the image, change directories into the root of this repository, and run:
 
-`docker build -t Minecraft .`  <-- note the period on the end
+`docker build -t minecraft .`  <-- note the period on the end
 
 Once it finishes building, you can run the container with:
 
-`docker run -i -t -d -p 25565:25565 Minecraft`
+`docker run -i -t -d -p 25565:25565 minecraft`
 
 Then, open your Minecraft client and connect to "localhost" or "127.0.0.1" to start playing.
 
