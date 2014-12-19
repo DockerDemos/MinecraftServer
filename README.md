@@ -7,7 +7,7 @@ All-in-one Minecraft Server in a Docker container
 
 Maintainer: Chris Collins \<collins.christopher@gmail.com\>
 
-Updated: 2014-05-13
+_Updated: 2014-12-19_
 
 ##Building and Running##
 
