@@ -7,7 +7,7 @@
 FROM ubuntu:14.04
 MAINTAINER Chris Collins <collins.christopher@gmail.com>
 
-ENV PKGS curl anacron openjdk-7-jre-headless
+ENV PKGS screen rsync zip wget curl anacron openjdk-7-jre-headless
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y $PKGS && \
@@ -26,6 +26,6 @@ RUN ln -s /etc/init.d/msm /usr/local/bin/msm
 
 ADD startup.sh /startup.sh
 
-EXPOSE 25565 
+EXPOSE 25565
 
 CMD ["/bin/bash", "/startup.sh"]
