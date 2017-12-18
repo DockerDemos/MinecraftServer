@@ -3,7 +3,7 @@ Minecraft Server
 
 [![Master Build Status](https://travis-ci.org/DockerDemos/MinecraftServer.svg?branch=master?branch=master)](https://travis-ci.org/DockerDemos/MinecraftServer.svg?branch=master) 
 
-All-in-one Minecraft Server in a Docker container: [Minecraft](https://minecraft.net/download)
+All-in-one [Minecraft](https://minecraft.net/download) Server in a Docker container
 
 _Updated: 2017-12-18_
 
@@ -24,15 +24,18 @@ Then, open your Minecraft client and connect to "localhost" or "127.0.0.1" to st
 
 To improve startup speed, this image will not update with the latest version of the Minecraft software automatically once the initial image is built.  When a new update is released, run the `docker build` command from above to get the newest version.
 
-## Making the Server Publicly Available
+Making the Server Publicly Available
+------------------------------------
 
 The `docker run` command above will run the Docker container with your new Minecraft server in a manner that is ready to accept connections from the public.  Just make sure your host's firewall is set to accept incoming connection on port 25565, and your router is configured to pass traffic on port 25565 back to the host running your Docker container.
 
-## Known Issues
+Known Issues
+------------
 
 Tracked on Github: [https://github.com/DockerDemos/MinecraftServer/issues](https://github.com/DockerDemos/MinecraftServer/issues)
 
-##Acknowledgements
+Acknowledgements
+----------------
 
 Thanks to:
 
@@ -40,7 +43,8 @@ Thanks to:
 
 * Barnaby Gray for the suggestion to use openjdk-7-jre-headless - gleaned from [https://github.com/barnybug/dockerfiles/blob/master/openjdk-7-jre/Dockerfile](https://github.com/barnybug/dockerfiles/blob/master/openjdk-7-jre/Dockerfile)
 
-##Copyright Information
+Copyright Information
+---------------------
 
 Copyright (C) 2017 Chris Collins
 
