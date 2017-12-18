@@ -2,7 +2,7 @@
 
 yes | /usr/local/bin/msm update
 
-/usr/local/bin/msm jargroup create minecraft https://s3.amazonaws.com/Minecraft.Download/versions/1.11.2/minecraft_server.1.11.2.jar
+/usr/local/bin/msm jargroup create minecraft $MINECRAFT_JAR
 /usr/local/bin/msm server create $(hostname)
 /usr/local/bin/msm $(hostname) jar minecraft
 

@@ -1,0 +1,9 @@
+version: '2'
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: minecraftserver:latest
+    ports:
+      - "127.0.0.1:25565:25565"
