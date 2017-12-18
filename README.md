@@ -1,10 +1,11 @@
 Minecraft Server
 ================
 
-_Updated: 2017-12-18_
 [![Master Build Status](https://travis-ci.org/DockerDemos/MinecraftServer.svg?branch=master?branch=master)](https://travis-ci.org/DockerDemos/MinecraftServer.svg?branch=master) 
 
 All-in-one Minecraft Server in a Docker container: [Minecraft](https://minecraft.net/download)
+
+_Updated: 2017-12-18_
 
 Building and Running
 --------------------
