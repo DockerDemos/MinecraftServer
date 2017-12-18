@@ -1,7 +1,7 @@
 Minecraft Server
 ================
 
-[![Master Build Status](https://travis-ci.org/DockerDemos/MinecraftServer.svg?branch=master)](https://travis-ci.org/DockerDemos/MinecraftServer) |
+[![Master Build Status](https://travis-ci.org/DockerDemos/MinecraftServer.svg?branch=master?branch=master)](https://travis-ci.org/DockerDemos/MinecraftServer.svg?branch=master) 
 
 All-in-one Minecraft Server in a Docker container
 
